@@ -13,7 +13,7 @@ This project was laravel-api with [note-app-api](https://github.com/leopico/note
 "react-toastify": "^9.1.1",
 "web-vitals": "^2.1.4"]
 
-## You have to install the package of axios,react-router-dom,react-toastify and react-quill with [npm]\
+## You have to install the package of axios,react-router-dom,react-toastify and react-quill with [npm]
 
 ### `This note-api pj will run following steps.`
 
