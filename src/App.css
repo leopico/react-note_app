@@ -1,38 +1,120 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+.header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar {
+  width: 20vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #1D2D3F;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#header {
+  height: 55vh;
+  background: linear-gradient(#1D2D3F, rgba(255, 255, 255, 0.041));
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+#header .nav-link {
+  color: white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#header img {
+  width: 60% !important;
+
 }
+
+.navbar .dropdown-menu {
+  min-width: 48px !important;
+}
+
+.navbar .dropdown-menu span:hover {
+  color: #25837b25 !important;
+}
+
+.bg-bg {
+  background-color: #222258;
+}
+
+.card {
+  background-color: #32325d;
+}
+
+.list-group-item {
+  border: 0px !important;
+}
+
+.label .list-group-item {
+  font-size: 13px;
+}
+
+.body-header {
+  margin-bottom: 20px;
+}
+
+.body-header:before {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  width: 90%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  transform-origin: left;
+  transform: skewY(5deg);
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.contribute:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  transform-origin: left;
+  transform: skewY(8deg);
+  z-index: -1;
+  filter: blur(10px);
+
+}
+
+.note:before {
+  content: '';
+  position: absolute;
+  bottom: -7%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.label-1 {
+  height: 60px;
+}
+
+.label-2 {
+    font-size: small;
+}
+
+.delete-1 {
+  cursor: pointer;
+}
+
