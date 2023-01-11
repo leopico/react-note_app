@@ -1,6 +1,6 @@
 # Getting Started with Note-APP with create-react-app and Laravel-Api
 
-This project was laravel-api with [note-app-api](https://github.com/leopico/note-app-api).
+This project was note application with laravel-api [note-app-api](https://github.com/leopico/note-app-api).
 
 ### dependencies
 
