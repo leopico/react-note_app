@@ -9,10 +9,7 @@ You have to singup and login for authorization.You can do CRUD for label,note.Yo
 ### For demo account
 usename-->mtk@a.com/password-->password
 
-### dependencies
-
-
-### You have to install node package manager (npm install)
+### You have to install node package manager (npm install) dependencies
 
 
 
