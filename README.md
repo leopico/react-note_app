@@ -11,16 +11,8 @@ usename-->mtk@a.com/password-->password
 
 ### dependencies
 
-["axios": "^1.2.2",
-"react": "^18.2.0",
-"react-dom": "^18.2.0",
-"react-quill": "^2.0.0",
-"react-router-dom": "^6.6.1",
-"react-scripts": "5.0.1",
-"react-toastify": "^9.1.1",
-"web-vitals": "^2.1.4"]
 
-## You have to install the package of axios,react-router-dom,react-toastify and react-quill with [npm]
+## You have to install [npm] install
 
 
 
