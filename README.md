@@ -12,7 +12,7 @@ usename-->mtk@a.com/password-->password
 ### dependencies
 
 
-## You have to install [npm] install
+### You have to install node package manager (npm install)
 
 
 
